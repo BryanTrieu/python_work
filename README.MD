@@ -1,0 +1,1 @@
+This repository contains the functions and exercises recommended by "Python Crash Course: A Hands On Project Based Introduction to Programming"
