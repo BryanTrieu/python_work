@@ -1,0 +1,4 @@
+Python can do math very quickly.
+Python can read contents of file size.
+Python can be used to program games.
+Python can be used to help manage databases and orchestration tools.
