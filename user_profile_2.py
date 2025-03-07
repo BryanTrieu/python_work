@@ -8,12 +8,12 @@ def build_profile(first, last, **user_info):
 	return user_info
 
 user_profile = build_profile('albert', 'einstein',
-							location= 'princeton',
-							field= 'physics')
+							location='princeton',
+							field='physics')
 
 print(user_profile)
 
 user_profile = build_profile('bryan', 'trieu',
-							location= 'california',
-							field= 'computer science')
+							location='california',
+							field='computer science')
 print(user_profile)
