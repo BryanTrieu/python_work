@@ -1,4 +1,4 @@
-# Example of class from chapter 9
+"""Example of class from chapter 9"""
 class Dog:
 	"""A simple attempt to model a dog."""
 

@@ -12,7 +12,7 @@ class Car:
 
 	def get_descriptive_name(self):
 		"""Return a neatly formatted descriptive name."""
-		long_name = f"{self.year} {self.manufacturer} {self.model}"
+		long_name = f"{self.year} {self.make} {self.model}"
 		return long_name.title()
 
 	def read_odometer(self):
@@ -32,3 +32,4 @@ class Car:
 	def increment_odometer(self, miles):
 		"""Add the given amount to the odometer reading."""
 		self.odometer_reading += miles
+

@@ -1,4 +1,4 @@
-# Example of importing an entire module and calling based on module & class name
+"""Example of importing an entire module and calling based on module & class name"""
 import car
 
 my_beetle = car.Car('volkswagen', 'beetle', 2019)

@@ -1,4 +1,5 @@
-# example of using classes for example 9-1
+"""example of using classes for example 9-10"""
+
 class Restaurant:
 	"""A simple attempt to model if a restaurant is open"""
 	
@@ -38,34 +39,3 @@ class IceCreamStand(Restaurant):
 		print(f"\nIce cream flavors available:")
 		for flavor in self.flavors:
 			print(f" - {flavor.title()}")
-
-# create instance restaurant of class Restaurant
-restaurant = Restaurant('olive garden', 'italian')
-
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
-
-# 9-2 three restaurant instances exercise
-my_restaurant = Restaurant('del taco', 'mexican')
-your_restaurant = Restaurant('panda express', 'chinese')
-his_restaurant = Restaurant('jack in the box', 'fast food')
-
-my_restaurant.describe_restaurant()
-your_restaurant.describe_restaurant()
-his_restaurant.describe_restaurant()
-
-# Example of manually updating an instance value
-print(restaurant.number_served)
-restaurant.number_served = 100_000
-print(restaurant.number_served)
-
-# Example of using methods to update an instance value
-your_restaurant.set_number_served(100)
-print(your_restaurant.number_served)
-your_restaurant.increment_number_served(10_000)
-print(your_restaurant.number_served)
-
-# 9-6 Test Ice Cream Class
-ice_cream_restaurant = IceCreamStand("baskin robbins")
-ice_cream_restaurant.describe_restaurant()
-ice_cream_restaurant.describe_flavors()
